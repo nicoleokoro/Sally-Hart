@@ -1,0 +1,90 @@
+/* the body tag contains everything on the page */
+body {
+font-family: Cooper Hewitt; 
+font-size: 16px;
+background-color: #004d96;
+color: #ffffff;
+  }
+
+a {
+  /* need to specify color of links otherwise they will use the default blue */
+  color: #ffffff;
+  /* this removes the defult underline */
+  text-decoration: none;
+}
+
+
+section {
+  /* vh stands for viewport height, meaning it will be relitive 
+  to the hight of our web browser*/
+ height: 100vh;
+ background-image: url(sally_1.jpg);
+  /*background image will cober the full hight without skewing or repeating the image*/
+ background-size: cover;
+  
+  background-attachment: fixed;
+}
+
+
+header {
+  /* using fixed position allows us to precisely position an element 
+  in relattion to the browser viewport */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom:  20px;
+  left:  20px;
+}
+
+h1 {
+  font-size: 24px;
+  /* marjins are the go-to property for when we want 
+  to create space between elements on our page */
+  margin-bottom: 5px;
+}
+
+/* this will select a tags that are inside of photo tags */
+header h1 {
+  margin-right: 5px;
+}
+
+/* we can apply styles to any element based on whether we are hovering 
+over them, this is called a pseudo selector */
+a:hover {
+  color: #dddddd;
+}
+
+/* this will apply styles to anything in out html which
+has a 'class' atribute of "image_2" */
+
+.image_2 {
+  background-image: url(sally_2.jpg);
+}
+
+.image_3 {
+  background-image: url(sally_3.jpg);
+}
+
+.image_4 {
+  background-image: url(sally_4.jpg);
+}
+
+.image_4 {
+  background-image: url(sally_5.jpg);
+}
+
+.image_4 {
+  background-image: url(sally_6.jpg);
+}
+
+.image_4 {
+  background-image: url(sally_7.jpg);
+}
+
+.image_4 {
+  background-image: url(sally_8.jpg);
+}
